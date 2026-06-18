@@ -499,6 +499,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 6736485890453056464}
   - {fileID: 881264422785398438}
   - {fileID: 582116502541463150}
   - {fileID: 6444536013358747890}
@@ -539,10 +540,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GCNBC.Components.NpcController
   _stats: {fileID: 11400000, guid: 0b72d22406ee1fc47809f1b55aa4b994, type: 2}
-  _maxHealth: 100
-  _healthDrainPerSecond: 0.1
-  _animation: {fileID: 0}
+  _animation: {fileID: -6413086184519474139}
   _carryPoint: {fileID: 881264422785398438}
+  _healthBar: {fileID: 8819855578624847638}
 --- !u!114 &-6413086184519474139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,3 +1028,84 @@ Transform:
   - {fileID: 3333110133175370168}
   m_Father: {fileID: 3287015423817953542}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5106063320194188174
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1012271578805653129}
+    m_Modifications:
+    - target: {fileID: 1990784208803539038, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990784208803539038, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990784208803539038, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990784208803539038, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990784208803539038, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990784208803539038, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990784208803539038, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990784208803539038, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990784208803539038, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990784208803539038, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766411819882472837, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766411819882472837, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726900389499320140, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+      propertyPath: m_Name
+      value: NpcHealthBar
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+--- !u!4 &6736485890453056464 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1990784208803539038, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+  m_PrefabInstance: {fileID: 5106063320194188174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8819855578624847638 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4375821404755324056, guid: 45f8a98c6bac17848a3afb5d8c2b33b1, type: 3}
+  m_PrefabInstance: {fileID: 5106063320194188174}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd9fb0f4c8767c45b51170c84e47e2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GCNBC.ViewControllers.UI.NpcHealthBar

@@ -3,6 +3,7 @@ using GCNBC.NPCStates;
 using GCNBC.Services;
 using GCNBC.Signals;
 using GCNBC.SOs;
+using GCNBC.ViewControllers.UI;
 using UnityEngine;
 using UnityEngine.AI;
 using Zenject;
@@ -21,6 +22,9 @@ namespace GCNBC.Components
         [Header("Carry")]
         [Tooltip("Where the carried ball is attached (e.g. an empty child in front of/above the NPC).")]
         [SerializeField] private Transform _carryPoint;
+
+        [Header("Health Bar")]
+        [SerializeField] private NpcHealthBar _healthBar;
         public Transform CarryPoint => _carryPoint;
 
         // --- Injected services ---
@@ -96,6 +100,9 @@ namespace GCNBC.Components
             _isDead = false;
             CarriedBall = null;
             _signalBus.Fire(new NpcSpawnedSignal(this));
+            
+            if (_healthBar != null)
+                _healthBar.SetHealth(_currentHealth, MaxHealth);
         }
 
         private void Start()
@@ -133,6 +140,9 @@ namespace GCNBC.Components
         {
             _currentHealth -= HealthDrainPerSecond * Time.deltaTime;
             Debug.Log($"[NPC] Health: {_currentHealth:F1} / {MaxHealth}");
+            if (_healthBar != null)
+                _healthBar.SetHealth(_currentHealth, MaxHealth);
+
             _signalBus.Fire(new NpcHealthChangedSignal(_currentHealth, MaxHealth));
             if (_currentHealth <= 0f)
             {
@@ -148,6 +158,8 @@ namespace GCNBC.Components
         public void AddHealth(float amount)
         {
             _currentHealth = Mathf.Min(_currentHealth + amount, MaxHealth);
+            if (_healthBar != null)
+                _healthBar.SetHealth(_currentHealth, MaxHealth);
         }
 
         private void Die()

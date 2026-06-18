@@ -2,8 +2,6 @@
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 /[Mm]emoryCaptures/
@@ -38,7 +36,9 @@
 # Unity3D generated file on crash reports
 sysinfo.txt
 
-# Builds
+# Builds — keep the playable build, but exclude Unity's debug-symbol backup
+# folder (it is not meant to ship and contains files over GitHub's 100MB limit).
+**/*_BackUpThisFolder_ButDontShipItWithYourGame/
 *.apk
 *.aab
 *.unitypackage
