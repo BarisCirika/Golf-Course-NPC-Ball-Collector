@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2204ec8a2d6a8fe45900f91c3ffb2300
+timeCreated: 1469533024
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67841
+  packageName: Twenty One Voxel Vehicles
+  packageVersion: 1.0
+  assetPath: Assets/Voxel Vehicles/Prefabs/Tractor.prefab
+  uploadId: 129074

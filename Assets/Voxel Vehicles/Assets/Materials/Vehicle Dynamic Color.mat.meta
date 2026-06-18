@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1f2bfd486a8e4f17838631d45ba93d2
+timeCreated: 1469195906
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67841
+  packageName: Twenty One Voxel Vehicles
+  packageVersion: 1.0
+  assetPath: Assets/Voxel Vehicles/Assets/Materials/Vehicle Dynamic Color.mat
+  uploadId: 129074

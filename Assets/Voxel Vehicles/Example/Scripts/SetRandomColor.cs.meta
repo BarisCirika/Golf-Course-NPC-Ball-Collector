@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 85a0c29890f784720926747c04678ddc
+timeCreated: 1469213940
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67841
+  packageName: Twenty One Voxel Vehicles
+  packageVersion: 1.0
+  assetPath: Assets/Voxel Vehicles/Example/Scripts/SetRandomColor.cs
+  uploadId: 129074

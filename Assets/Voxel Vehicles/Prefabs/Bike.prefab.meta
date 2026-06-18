@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 63c5fd698c8b04dcdb0aa8f50798ccb1
+timeCreated: 1469216595
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67841
+  packageName: Twenty One Voxel Vehicles
+  packageVersion: 1.0
+  assetPath: Assets/Voxel Vehicles/Prefabs/Bike.prefab
+  uploadId: 129074

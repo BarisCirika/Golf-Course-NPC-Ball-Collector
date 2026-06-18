@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 24281818241f0466781bd61ba5f9ab38
+timeCreated: 1469213722
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67841
+  packageName: Twenty One Voxel Vehicles
+  packageVersion: 1.0
+  assetPath: Assets/Voxel Vehicles/Prefabs/Offroad.prefab
+  uploadId: 129074

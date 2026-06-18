@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1d42b4e7b3ceb40fcaf7c16d7e971131
+timeCreated: 1469216474
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67841
+  packageName: Twenty One Voxel Vehicles
+  packageVersion: 1.0
+  assetPath: Assets/Voxel Vehicles/Prefabs/GolfCart.prefab
+  uploadId: 129074

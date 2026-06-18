@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1aed9d916aa2d4b30bc9b7c66902a869
+timeCreated: 1469216499
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67841
+  packageName: Twenty One Voxel Vehicles
+  packageVersion: 1.0
+  assetPath: Assets/Voxel Vehicles/Prefabs/Bummer.prefab
+  uploadId: 129074

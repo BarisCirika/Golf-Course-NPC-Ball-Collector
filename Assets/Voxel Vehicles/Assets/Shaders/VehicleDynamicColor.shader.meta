@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b495d7b0c7d52409f96019ac3084e38f
+timeCreated: 1469525635
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _MainTex: {fileID: 2800000, guid: cee8d31b4c75648e2aed24472ba6d430, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67841
+  packageName: Twenty One Voxel Vehicles
+  packageVersion: 1.0
+  assetPath: Assets/Voxel Vehicles/Assets/Shaders/VehicleDynamicColor.shader
+  uploadId: 129074

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 127d305f4871540ffb45e9aaf4e96736
+timeCreated: 1469213720
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 67841
+  packageName: Twenty One Voxel Vehicles
+  packageVersion: 1.0
+  assetPath: Assets/Voxel Vehicles/Prefabs/Monster Truck.prefab
+  uploadId: 129074

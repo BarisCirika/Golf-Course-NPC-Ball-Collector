@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13d3323c4d75fa04b810d3a92372dabe, type: 3}
+  m_Name: HeroConfig
+  m_EditorClassIdentifier: Assembly-CSharp::NPCPrefabRegistry
+  _npcPrefabs:
+  - {fileID: 3372903666449399891, guid: b7132ed36253efa448f1542044565420, type: 3}
+  - {fileID: 4059738310148996250, guid: 8d544a6ac4485e2448abaf7871b8257b, type: 3}
+  - {fileID: 964287678237570482, guid: 753e3ab46e910eb448829736c21e18f4, type: 3}
+  - {fileID: 6657596012976744418, guid: eb8874f77f08b6f4c88b6139b7a82981, type: 3}
+  - {fileID: 4036759220601325684, guid: c53f1a87864634445b6b9282964d037d, type: 3}
+  - {fileID: 8649710620095685251, guid: 36f07177b5d6f0b4db2ead7fe4bd527e, type: 3}
+  - {fileID: 7357939394601080755, guid: 57d121eb8372675488e6cb0bb1852055, type: 3}
+  - {fileID: 2585194206820352517, guid: c80105ddb0a15c44889fcca950c5a9d9, type: 3}
+  - {fileID: 7852006054212196700, guid: 837f27e48458f8f4ea761fefff8c6ef3, type: 3}
+  - {fileID: 2535899748712966444, guid: 549a07d67f3323b468f80bf6eae7ae50, type: 3}
